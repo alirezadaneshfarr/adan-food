@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+
+    h3 {
+        font-size: 2rem;
+        color: #53c60b;
+        font-weight: 600;
+        margin-bottom: 50px;
+    }
+
+    ul {
+        padding: 0;
+        //    align-items: center;
+    }
+
+    li {
+        font-size: 1.1rem;
+        line-height: 30px;
+        font-weight: 500;
+        list-style: none;
+    }
+
+    li:before {
+        content: "• ";
+        color: #53c60b;
+        font-size: 1.5rem;
+    }
+}

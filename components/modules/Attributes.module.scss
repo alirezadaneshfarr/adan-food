@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.ask {
+    font-size: 2rem;
+    color: #53c60b;
+    font-weight: 600;
+}
+
+.subContainer {
+    width: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    div {
+        box-sizing: border-box;
+        width: 150px;
+        border-radius: 12px;
+        text-align: center;
+        margin: 90px;
+
+        p {
+            font-weight: 500;
+            margin-top: 20px;
+        }
+    }
+}

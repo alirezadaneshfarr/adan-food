@@ -1,0 +1,165 @@
+.container {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 150px;
+
+    h2 {
+        font-size: 2rem;
+        border-bottom: 3px solid #53c60b;
+        font-weight: 600;
+        position: relative;
+        left: 0;
+    }
+
+    // .subContainer {
+
+    // }
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 0;
+    box-sizing: border-box;
+
+    div {
+        margin-left: 180px;
+        width: 600;
+    }
+
+    img {
+        width: 350px;
+        border-radius: 10px;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #53c60b;
+    }
+
+    .location {
+        font-size: 1rem;
+        font-weight: 500;
+
+    }
+
+    .price {
+        margin: 60px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #53c60b;
+    }
+
+    .discount {
+        margin-left: 35px;
+        background-color: #ee3636;
+        padding: 10px;
+        border-radius: 8px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+}
+
+.introduction {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+
+    h4 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #53c60b;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+
+    p {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    p::before {
+        content: "• ";
+        color: #53c60b;
+        font-size: 25px;
+        margin-right: 10px;
+    }
+
+    span {
+        margin-left: 10px;
+        position: relative;
+        top: 4px;
+    }
+}
+
+.recipe {
+    margin-top: 100px;
+
+    div {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+
+        span {
+            margin-right: 25px;
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+
+        p {
+            font-size: 1rem;
+            font-weight: 500;
+        }
+    }
+
+    h4 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #53c60b;
+    }
+
+    .odd {
+        background-color: #53c60b;
+    }
+
+    .even {
+        background-color: #79ff26;
+    }
+
+}
+
+.button {
+    all: unset;
+    background-color: #53c60b;
+    color: #fff;
+    transition: 0.3s;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 8px;
+    width: 900px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #35750e;
+}

@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px 0;
+
+    a {
+        cursor: pointer;
+        padding: 15px 50px;
+        border-radius: 10px;
+        border: 0.1rem solid #53c60b;
+        transition: 0.3s;
+    }
+
+    a:hover {
+        background-color: #53c60b;
+        color: #fff;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .container a {
+        padding: 10px 20px;
+    }
+}
